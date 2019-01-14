@@ -1,0 +1,1046 @@
+2019-01-11 09:30:30.748 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 11776 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 09:30:30.791 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 09:30:31.042 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 09:30:31.042 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 09:30:34.233 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$43ca4012] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 09:30:35.287 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 09:30:35.306 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 09:30:35.323 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 09:30:35.324 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 09:30:35.340 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 09:30:35.586 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 09:30:35.587 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4544 ms
+2019-01-11 09:30:36.067 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$4a3e7d64 - No deployment resources were found for autodeployment
+2019-01-11 09:30:36.089 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 09:30:36.457 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 09:30:36.459 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:30:36.459 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:30:36.600 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 09:30:36.824 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 09:30:38.392 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:30:38.492 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 09:30:38.582 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 09:30:38.659 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 09:30:39.977 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 09:30:40.096 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 09:30:40.400 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 09:30:40.613 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 09:30:40.940 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 09:30:41.121 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 09:30:41.154 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 09:30:41.256 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 09:30:41.633 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 09:30:41.658 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 09:30:41.699 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 09:30:41.706 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.832 seconds (JVM running for 17.073)
+2019-01-11 09:30:42.286 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 09:30:42.286 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 09:30:42.309 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-01-11 09:30:42.325 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 09:30:42.325 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 09:30:47.126 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4801 ms
+2019-01-11 09:32:58.056 logback [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s627ms504µs302ns).
+2019-01-11 09:33:35.698 logback [http-nio-8081-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.example.flowableactivity.service.impl.BpmnModelServiceImpl.bpmnAssembly(BpmnModelServiceImpl.java:118)
+	at com.example.flowableactivity.controller.BpmnModelController.addBpmnModel(BpmnModelController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-11 09:41:38.719 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 09:41:38.719 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 09:41:38.745 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 09:41:53.214 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 8440 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 09:41:53.222 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 09:41:53.426 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 09:41:53.427 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 09:41:57.049 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9f977104] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 09:41:57.863 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 09:41:57.880 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 09:41:57.895 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 09:41:57.896 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 09:41:57.906 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 09:41:58.129 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 09:41:58.129 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4702 ms
+2019-01-11 09:41:58.557 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$a60bae56 - No deployment resources were found for autodeployment
+2019-01-11 09:41:58.578 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 09:41:58.926 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 09:41:58.928 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:41:58.928 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:41:59.016 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 09:41:59.192 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 09:42:00.468 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:42:00.554 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 09:42:00.636 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 09:42:00.687 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 09:42:01.649 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 09:42:01.795 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 09:42:02.069 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 09:42:02.196 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 09:42:02.480 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 09:42:02.635 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 09:42:02.680 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 09:42:02.765 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 09:42:03.051 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 09:42:03.067 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 09:42:03.100 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 09:42:03.105 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 10.889 seconds (JVM running for 14.418)
+2019-01-11 09:42:03.303 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 09:42:03.304 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 09:42:03.322 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2019-01-11 09:42:03.336 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 09:42:03.336 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 09:42:05.803 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2467 ms
+2019-01-11 09:57:52.389 logback [Thread-34] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 09:57:52.390 logback [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 09:57:52.576 logback [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 09:58:04.493 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 4676 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 09:58:04.503 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 09:58:04.694 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 09:58:04.694 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 09:58:08.981 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3225eda4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 09:58:09.927 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 09:58:09.948 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 09:58:09.961 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 09:58:09.961 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 09:58:09.972 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 09:58:10.199 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 09:58:10.200 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5504 ms
+2019-01-11 09:58:10.846 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$389a2af6 - No deployment resources were found for autodeployment
+2019-01-11 09:58:10.871 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 09:58:11.266 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 09:58:11.268 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:58:11.269 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:58:11.374 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 09:58:11.578 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 09:58:13.234 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 09:58:13.342 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 09:58:13.425 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 09:58:13.477 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 09:58:14.400 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 09:58:14.511 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 09:58:14.764 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 09:58:14.934 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 09:58:15.228 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 09:58:15.391 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 09:58:15.418 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 09:58:15.495 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 09:58:15.795 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 09:58:15.812 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 09:58:15.836 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 09:58:15.841 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 12.356 seconds (JVM running for 15.92)
+2019-01-11 09:58:16.466 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 09:58:16.466 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 09:58:16.483 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-01-11 09:58:16.495 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 09:58:16.495 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 09:58:18.742 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2247 ms
+2019-01-11 10:15:44.603 logback [Thread-37] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 10:15:44.603 logback [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 10:15:44.642 logback [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 10:15:56.391 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 10500 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 10:15:56.402 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 10:15:56.621 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 10:15:56.621 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 10:16:00.428 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$16ef4111] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 10:16:01.288 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 10:16:01.310 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 10:16:01.328 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 10:16:01.328 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 10:16:01.340 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 10:16:01.565 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 10:16:01.565 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4943 ms
+2019-01-11 10:16:02.066 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$1d637e63 - No deployment resources were found for autodeployment
+2019-01-11 10:16:02.090 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 10:16:02.451 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 10:16:02.453 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 10:16:02.453 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 10:16:02.543 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 10:16:02.737 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 10:16:04.123 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 10:16:04.212 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 10:16:04.287 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 10:16:04.329 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 10:16:05.269 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 10:16:05.386 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 10:16:05.682 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 10:16:05.811 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 10:16:06.110 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 10:16:06.273 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 10:16:06.299 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 10:16:06.392 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 10:16:06.698 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 10:16:06.717 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 10:16:06.743 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 10:16:06.749 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.294 seconds (JVM running for 14.077)
+2019-01-11 10:16:07.110 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 10:16:07.110 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 10:16:07.129 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2019-01-11 10:16:07.141 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 10:16:07.142 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 10:16:08.947 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1805 ms
+2019-01-11 13:41:41.108 logback [Thread-35] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 13:41:41.112 logback [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 13:41:41.143 logback [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:05:07.298 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 11900 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:05:07.325 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:05:07.675 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:05:07.678 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:05:11.053 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c07d048b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:05:12.204 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:05:12.226 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:05:12.244 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:05:12.245 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:05:12.261 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:05:12.492 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:05:12.492 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4813 ms
+2019-01-11 15:05:12.976 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$c6f141dd - No deployment resources were found for autodeployment
+2019-01-11 15:05:13.000 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:05:13.352 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:05:13.354 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:05:13.354 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:05:13.499 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:05:13.689 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:05:15.340 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:05:15.441 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:05:15.521 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:05:15.567 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:05:16.582 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:05:16.705 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:05:17.019 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:05:17.149 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:05:17.455 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:05:17.617 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:05:17.649 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:05:17.732 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:05:17.987 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:05:17.991 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:05:18.065 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:05:18.082 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:05:18.108 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:05:18.113 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 13.551 seconds (JVM running for 18.023)
+2019-01-11 15:05:18.399 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:05:18.401 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:05:18.416 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-01-11 15:05:18.430 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:05:18.432 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:05:19.935 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1503 ms
+2019-01-11 15:12:18.734 logback [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.flowableactivity.FlowableactivityApplicationTests], using SpringBootContextLoader
+2019-01-11 15:12:18.751 logback [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.flowableactivity.FlowableactivityApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-01-11 15:12:18.753 logback [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.flowableactivity.FlowableactivityApplicationTests]: FlowableactivityApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-01-11 15:12:19.382 logback [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.flowableactivity.FlowableactivityApplication for test class com.example.flowableactivity.FlowableactivityApplicationTests
+2019-01-11 15:12:19.663 logback [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-01-11 15:12:19.713 logback [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@60a2630a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29df4d43, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5dd91bca, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@40cb698e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3382f8ae, org.springframework.test.context.transaction.TransactionalTestExecutionListener@60641ec8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@75f65e45, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6eeade6c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a891c97, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@a5bd950, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d18aa28, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@75390459]
+2019-01-11 15:12:20.633 logback [main] INFO  c.e.f.FlowableactivityApplicationTests - Starting FlowableactivityApplicationTests on DESKTOP-UQ7FIHQ with PID 5060 (started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:12:20.635 logback [main] INFO  c.e.f.FlowableactivityApplicationTests - No active profile set, falling back to default profiles: default
+2019-01-11 15:12:26.402 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$61dd049] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:12:27.624 logback [main] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$c920d9b - No deployment resources were found for autodeployment
+2019-01-11 15:12:27.861 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:12:29.018 logback [main] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:12:29.023 logback [main] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:12:29.023 logback [main] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:12:29.223 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:12:29.641 logback [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:12:32.775 logback [main] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:12:33.112 logback [main] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:12:33.249 logback [main] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:12:33.342 logback [main] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:12:36.886 logback [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:12:37.431 logback [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:12:39.075 logback [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:12:40.243 logback [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:12:40.668 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:12:40.733 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:12:40.878 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:12:41.949 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:12:41.954 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:12:42.095 logback [main] INFO  c.e.f.FlowableactivityApplicationTests - Started FlowableactivityApplicationTests in 22.248 seconds (JVM running for 27.986)
+2019-01-11 15:13:24.944 logback [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:13:24.945 logback [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:13:24.968 logback [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:15:21.056 logback [Thread-40] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:15:21.057 logback [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:15:21.072 logback [Thread-40] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:15:30.695 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 7532 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:15:30.705 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:15:30.931 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:15:30.932 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:15:34.996 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ff31c13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:15:36.083 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:15:36.105 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:15:36.120 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:15:36.120 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:15:36.134 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:15:36.388 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:15:36.389 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5457 ms
+2019-01-11 15:15:36.849 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$56675965 - No deployment resources were found for autodeployment
+2019-01-11 15:15:36.872 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:15:37.232 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:15:37.233 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:15:37.234 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:15:37.326 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:15:37.513 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:15:38.813 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:15:38.916 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:15:38.992 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:15:39.046 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:15:40.005 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:15:40.122 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:15:40.390 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:15:40.518 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:15:40.836 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:15:40.995 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:15:41.023 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:15:41.100 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:15:41.381 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:15:41.383 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:15:41.452 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:15:41.470 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:15:41.497 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:15:41.502 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.907 seconds (JVM running for 14.856)
+2019-01-11 15:15:41.690 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:15:41.691 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:15:41.713 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-01-11 15:15:41.729 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:15:41.730 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:15:43.244 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1514 ms
+2019-01-11 15:18:23.035 logback [http-nio-8081-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.flowable.common.engine.api.FlowableException: No outgoing sequence flow of element '_13' could be selected for continuing the process] with root cause
+org.flowable.common.engine.api.FlowableException: No outgoing sequence flow of element '_13' could be selected for continuing the process
+	at org.flowable.engine.impl.agenda.TakeOutgoingSequenceFlowsOperation.leaveFlowNode(TakeOutgoingSequenceFlowsOperation.java:179)
+	at org.flowable.engine.impl.agenda.TakeOutgoingSequenceFlowsOperation.handleFlowNode(TakeOutgoingSequenceFlowsOperation.java:96)
+	at org.flowable.engine.impl.agenda.TakeOutgoingSequenceFlowsOperation.run(TakeOutgoingSequenceFlowsOperation.java:85)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:88)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:71)
+	at org.flowable.common.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:49)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:46)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.engine.impl.TaskServiceImpl.complete(TaskServiceImpl.java:213)
+	at com.example.flowableactivity.controller.WorkflowRevolveController.reject(WorkflowRevolveController.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:919)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-11 15:20:24.763 logback [http-nio-8081-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.flowable.common.engine.api.FlowableException: No outgoing sequence flow of element '_13' could be selected for continuing the process] with root cause
+org.flowable.common.engine.api.FlowableException: No outgoing sequence flow of element '_13' could be selected for continuing the process
+	at org.flowable.engine.impl.agenda.TakeOutgoingSequenceFlowsOperation.leaveFlowNode(TakeOutgoingSequenceFlowsOperation.java:179)
+	at org.flowable.engine.impl.agenda.TakeOutgoingSequenceFlowsOperation.handleFlowNode(TakeOutgoingSequenceFlowsOperation.java:96)
+	at org.flowable.engine.impl.agenda.TakeOutgoingSequenceFlowsOperation.run(TakeOutgoingSequenceFlowsOperation.java:85)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:88)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:71)
+	at org.flowable.common.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:49)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:46)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.engine.impl.TaskServiceImpl.complete(TaskServiceImpl.java:213)
+	at com.example.flowableactivity.controller.WorkflowRevolveController.reject(WorkflowRevolveController.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:919)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-11 15:20:48.794 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:20:48.796 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:20:48.867 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:20:58.976 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 2152 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:20:59.002 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:20:59.202 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:20:59.202 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:21:02.998 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3671fbf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:21:03.804 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:21:03.822 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:21:03.838 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:21:03.838 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:21:03.850 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:21:04.087 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:21:04.088 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4885 ms
+2019-01-11 15:21:04.529 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$9db5d11 - No deployment resources were found for autodeployment
+2019-01-11 15:21:04.553 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:21:04.902 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:21:04.904 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:21:04.904 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:21:04.987 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:21:05.170 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:21:06.488 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:21:06.588 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:21:06.669 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:21:06.714 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:21:07.698 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:21:07.811 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:21:08.066 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:21:08.193 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:21:08.481 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:21:08.641 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:21:08.673 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:21:08.748 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:21:08.989 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:21:08.993 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:21:09.069 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:21:09.086 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:21:09.109 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:21:09.114 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.098 seconds (JVM running for 13.773)
+2019-01-11 15:21:09.239 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:21:09.239 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:21:09.260 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2019-01-11 15:21:09.273 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:21:09.273 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:21:10.749 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1476 ms
+2019-01-11 15:25:59.944 logback [Thread-34] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:25:59.945 logback [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:26:00.078 logback [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:26:10.230 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 13184 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:26:10.240 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:26:10.426 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:26:10.427 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:26:14.672 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff30cd94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:26:15.457 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:26:15.477 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:26:15.491 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:26:15.491 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:26:15.504 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:26:15.724 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:26:15.725 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5297 ms
+2019-01-11 15:26:16.177 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$5a50ae6 - No deployment resources were found for autodeployment
+2019-01-11 15:26:16.198 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:26:16.565 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:26:16.567 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:26:16.567 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:26:16.713 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:26:16.899 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:26:18.270 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:26:18.370 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:26:18.446 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:26:18.491 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:26:19.422 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:26:19.537 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:26:19.822 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:26:19.954 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:26:20.256 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:26:20.416 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:26:20.443 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:26:20.520 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:26:20.767 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:26:20.772 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2019-01-11 15:26:20.775 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:26:20.843 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:26:20.861 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:26:20.890 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:26:20.896 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.664 seconds (JVM running for 14.691)
+2019-01-11 15:26:21.222 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:26:21.222 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:26:21.246 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2019-01-11 15:26:21.264 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:26:21.264 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:26:22.820 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1556 ms
+2019-01-11 15:27:52.704 logback [http-nio-8081-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: lazy loading outside command context; nested exception is com.fasterxml.jackson.databind.JsonMappingException: lazy loading outside command context (through reference chain: com.example.flowableactivity.model.ResultInfo["result"]->java.util.ArrayList[0]->org.flowable.task.service.impl.persistence.entity.TaskEntityImpl["variableInstances"])]
+2019-01-11 15:28:38.824 logback [http-nio-8081-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: lazy loading outside command context; nested exception is com.fasterxml.jackson.databind.JsonMappingException: lazy loading outside command context (through reference chain: com.example.flowableactivity.model.ResultInfo["result"]->java.util.ArrayList[0]->org.flowable.task.service.impl.persistence.entity.TaskEntityImpl["variableInstances"])]
+2019-01-11 15:29:14.311 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:29:14.312 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:29:14.329 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:29:24.352 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 13836 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:29:24.361 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:29:24.570 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:29:24.570 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:29:28.610 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$61295aaa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:29:29.419 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:29:29.437 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:29:29.452 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:29:29.452 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:29:29.465 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:29:29.692 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:29:29.692 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5121 ms
+2019-01-11 15:29:30.147 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$679d97fc - No deployment resources were found for autodeployment
+2019-01-11 15:29:30.174 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:29:30.525 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:29:30.527 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:29:30.527 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:29:30.611 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:29:30.782 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:29:32.202 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:29:32.296 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:29:32.373 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:29:32.417 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:29:33.354 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:29:33.471 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:29:33.754 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:29:33.890 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:29:34.185 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:29:34.352 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:29:34.378 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:29:34.454 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:29:34.712 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:29:34.715 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2019-01-11 15:29:34.718 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:29:34.792 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:29:34.810 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:29:34.841 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:29:34.846 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.503 seconds (JVM running for 14.509)
+2019-01-11 15:29:35.341 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:29:35.342 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:29:35.360 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2019-01-11 15:29:35.374 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:29:35.374 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:29:36.856 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1482 ms
+2019-01-11 15:29:42.485 logback [http-nio-8081-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: lazy loading outside command context; nested exception is com.fasterxml.jackson.databind.JsonMappingException: lazy loading outside command context (through reference chain: com.example.flowableactivity.model.ResultInfo["result"]->java.util.ArrayList[0]->org.flowable.task.service.impl.persistence.entity.TaskEntityImpl["variableInstances"])]
+2019-01-11 15:33:21.705 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:33:21.706 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:33:21.856 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:33:31.398 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 3564 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:33:31.413 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:33:31.609 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:33:31.609 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:33:35.679 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed089934] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:33:36.526 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:33:36.543 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:33:36.557 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:33:36.558 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:33:36.572 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:33:36.797 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:33:36.798 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5188 ms
+2019-01-11 15:33:37.248 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$f37cd686 - No deployment resources were found for autodeployment
+2019-01-11 15:33:37.269 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:33:37.617 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:33:37.618 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:33:37.619 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:33:37.700 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:33:37.879 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:33:39.177 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:33:39.279 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:33:39.360 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:33:39.405 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:33:40.451 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:33:40.584 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:33:40.894 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:33:41.023 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:33:41.355 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:33:41.514 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:33:41.542 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:33:41.615 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:33:41.917 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:33:41.920 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2019-01-11 15:33:41.924 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:33:41.991 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:33:42.010 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:33:42.036 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:33:42.042 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.69 seconds (JVM running for 14.494)
+2019-01-11 15:33:42.398 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:33:42.399 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:33:42.414 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-01-11 15:33:42.429 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:33:42.429 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:33:43.832 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1403 ms
+2019-01-11 15:35:08.220 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:35:08.221 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:35:08.254 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:35:18.415 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 10032 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:35:18.424 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:35:18.614 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:35:18.614 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:35:22.612 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9333bea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:35:23.389 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:35:23.407 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:35:23.422 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:35:23.422 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:35:23.436 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:35:23.667 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:35:23.668 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5053 ms
+2019-01-11 15:35:24.117 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$99a7fbf7 - No deployment resources were found for autodeployment
+2019-01-11 15:35:24.143 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:35:24.489 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:35:24.491 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:35:24.491 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:35:24.575 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:35:24.750 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:35:26.087 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:35:26.237 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:35:26.347 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:35:26.403 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:35:27.707 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:35:27.819 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:35:28.111 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:35:28.243 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:35:28.533 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:35:28.693 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:35:28.728 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:35:28.804 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:35:29.045 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:35:29.049 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2019-01-11 15:35:29.054 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:35:29.122 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:35:29.138 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:35:29.163 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:35:29.168 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.779 seconds (JVM running for 14.687)
+2019-01-11 15:35:29.317 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:35:29.317 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:35:29.339 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-01-11 15:35:29.354 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:35:29.354 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:35:30.819 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1465 ms
+2019-01-11 15:39:13.420 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:39:13.421 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:39:13.470 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:39:45.330 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 13808 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:39:45.338 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:39:45.542 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:39:45.543 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:39:49.502 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dc69d77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:39:50.316 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:39:50.337 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:39:50.364 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:39:50.364 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:39:50.374 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:39:50.604 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:39:50.604 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5061 ms
+2019-01-11 15:39:51.066 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$243adac9 - No deployment resources were found for autodeployment
+2019-01-11 15:39:51.088 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:39:51.456 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:39:51.459 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:39:51.459 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:39:51.540 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:39:51.747 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:39:53.098 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:39:53.186 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:39:53.267 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:39:53.311 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:39:54.334 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:39:54.452 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:39:54.698 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:39:54.830 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:39:55.132 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:39:55.293 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:39:55.319 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:39:55.398 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:39:55.643 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:39:55.648 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2019-01-11 15:39:55.652 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:39:55.719 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:39:55.736 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:39:55.761 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:39:55.767 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.429 seconds (JVM running for 14.62)
+2019-01-11 15:39:56.066 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:39:56.066 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:39:56.085 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2019-01-11 15:39:56.097 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:39:56.097 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:39:57.608 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1511 ms
+2019-01-11 15:41:09.917 logback [Thread-35] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:41:09.918 logback [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:41:10.056 logback [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:41:20.173 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 668 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:41:20.184 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:41:20.380 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:41:20.380 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:41:24.565 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2cacb4b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:41:25.394 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:41:25.414 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:41:25.428 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:41:25.428 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:41:25.438 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:41:25.663 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:41:25.663 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5282 ms
+2019-01-11 15:41:26.123 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$3320f202 - No deployment resources were found for autodeployment
+2019-01-11 15:41:26.146 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:41:26.498 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:41:26.500 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:41:26.500 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:41:26.586 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:41:26.755 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:41:28.101 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:41:28.187 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:41:28.265 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:41:28.308 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:41:29.295 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:41:29.453 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:41:29.709 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:41:29.838 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:41:30.150 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:41:30.310 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:41:30.336 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:41:30.412 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:41:30.658 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:41:30.662 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2019-01-11 15:41:30.665 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:41:30.734 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:41:30.751 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:41:30.780 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:41:30.785 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.641 seconds (JVM running for 14.546)
+2019-01-11 15:41:31.085 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:41:31.085 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:41:31.107 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-01-11 15:41:31.123 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:41:31.123 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:41:32.717 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1594 ms
+2019-01-11 15:43:30.772 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:43:30.773 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:43:30.995 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:43:41.266 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 1792 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:43:41.278 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:43:41.472 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:43:41.473 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:43:45.480 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73b627b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:43:46.291 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:43:46.311 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:43:46.325 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:43:46.326 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:43:46.339 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:43:46.563 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:43:46.563 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5089 ms
+2019-01-11 15:43:47.018 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$7a2a6503 - No deployment resources were found for autodeployment
+2019-01-11 15:43:47.043 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:43:47.396 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:43:47.397 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:43:47.398 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:43:47.480 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:43:47.658 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:43:48.988 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:43:49.087 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:43:49.172 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:43:49.222 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:43:50.192 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:43:50.303 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:43:50.596 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:43:50.739 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:43:51.046 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:43:51.211 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:43:51.250 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:43:51.355 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:43:51.590 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:43:51.593 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2019-01-11 15:43:51.598 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:43:51.698 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:43:51.719 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:43:51.755 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:43:51.766 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.475 seconds (JVM running for 14.301)
+2019-01-11 15:43:52.285 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:43:52.285 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:43:52.303 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2019-01-11 15:43:52.315 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:43:52.315 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:43:53.818 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1503 ms
+2019-01-11 15:45:13.061 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:45:13.062 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 15:45:13.081 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 15:45:22.625 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 13592 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 15:45:22.636 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 15:45:22.838 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 15:45:22.838 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 15:45:26.834 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58ca9eee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 15:45:27.604 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 15:45:27.623 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:45:27.639 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 15:45:27.639 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 15:45:27.653 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 15:45:27.896 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 15:45:27.896 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5058 ms
+2019-01-11 15:45:28.360 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$5f3edc40 - No deployment resources were found for autodeployment
+2019-01-11 15:45:28.382 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 15:45:28.726 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 15:45:28.728 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:45:28.728 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:45:28.813 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 15:45:28.987 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 15:45:30.279 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 15:45:30.372 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 15:45:30.450 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 15:45:30.497 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 15:45:31.517 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 15:45:31.629 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 15:45:31.934 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 15:45:32.065 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 15:45:32.352 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 15:45:32.521 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 15:45:32.548 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 15:45:32.620 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 15:45:32.880 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: applyUsingPUT_1
+2019-01-11 15:45:32.888 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2019-01-11 15:45:32.893 logback [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: rejectUsingPUT_1
+2019-01-11 15:45:32.962 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 15:45:32.980 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 15:45:33.006 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 15:45:33.012 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 11.44 seconds (JVM running for 14.327)
+2019-01-11 15:45:33.485 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 15:45:33.485 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 15:45:33.504 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2019-01-11 15:45:33.516 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 15:45:33.516 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 15:45:35.013 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1497 ms
+2019-01-11 16:43:29.066 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 16:43:29.070 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 16:43:29.110 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 16:43:42.325 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 7228 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 16:43:42.354 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 16:43:42.555 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 16:43:42.556 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 16:43:46.825 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$faf57183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 16:43:47.646 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 16:43:47.666 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 16:43:47.681 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 16:43:47.682 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 16:43:47.693 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 16:43:47.922 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 16:43:47.922 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5365 ms
+2019-01-11 16:43:48.379 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$169aed5 - No deployment resources were found for autodeployment
+2019-01-11 16:43:48.402 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 16:43:48.754 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 16:43:48.756 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 16:43:48.756 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 16:43:48.842 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 16:43:49.017 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 16:43:50.325 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 16:43:50.422 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 16:43:50.499 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 16:43:50.543 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 16:43:51.534 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 16:43:51.661 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 16:43:51.987 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 16:43:52.115 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 16:43:52.413 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 16:43:52.576 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 16:43:52.608 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 16:43:52.697 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 16:43:53.043 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 16:43:53.060 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 16:43:53.088 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 16:43:53.093 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 12.066 seconds (JVM running for 15.54)
+2019-01-11 16:43:53.258 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 16:43:53.258 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 16:43:53.277 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2019-01-11 16:43:53.291 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 16:43:53.291 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 16:43:54.705 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1414 ms
+2019-01-11 16:57:30.272 logback [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 16:57:30.275 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 16:57:30.294 logback [Thread-36] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-11 16:57:43.496 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Starting FlowableactivityApplication on DESKTOP-UQ7FIHQ with PID 8912 (D:\gongzuoxiangmu\flowable\flowableactivity\target\classes started by TUSHIXIAN in D:\gongzuoxiangmu\flowable\flowableactivity)
+2019-01-11 16:57:43.530 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - No active profile set, falling back to default profiles: default
+2019-01-11 16:57:43.749 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-11 16:57:43.750 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-11 16:57:47.643 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a03c35e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-11 16:57:48.771 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-01-11 16:57:48.794 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-11 16:57:48.823 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-11 16:57:48.823 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-11 16:57:48.853 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk8.0\bin;D:\svn\bin;D:\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Git\cmd;D:\mysql\mysql-8.0.13-winx64\mysql-8.0.13-winx64\bin;D:\erlong\erl10.2\bin;C:\Users\TUSHIXIAN\AppData\Local\Microsoft\WindowsApps;;.]
+2019-01-11 16:57:49.093 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-11 16:57:49.093 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5343 ms
+2019-01-11 16:57:49.569 logback [restartedMain] INFO  o.f.s.b.ProcessEngineAutoConfiguration$$EnhancerBySpringCGLIB$$a6b07335 - No deployment resources were found for autodeployment
+2019-01-11 16:57:49.593 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-11 16:57:49.980 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Found 1 Engine Configurators in total:
+2019-01-11 16:57:49.982 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 16:57:49.982 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 16:57:50.135 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-11 16:57:50.327 logback [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-11 16:57:51.841 logback [restartedMain] INFO  o.f.c.e.i.AbstractEngineConfiguration - Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:100000)
+2019-01-11 16:57:51.939 logback [restartedMain] INFO  o.f.idm.engine.impl.IdmEngineImpl - IdmEngine default created
+2019-01-11 16:57:52.023 logback [restartedMain] INFO  o.f.engine.impl.ProcessEngineImpl - ProcessEngine default created
+2019-01-11 16:57:52.078 logback [restartedMain] INFO  o.f.e.impl.cmd.ValidateV5EntitiesCmd - Total of v5 deployments found: 0
+2019-01-11 16:57:53.138 logback [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-11 16:57:53.263 logback [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-01-11 16:57:53.539 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-11 16:57:53.663 logback [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-11 16:57:53.974 logback [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-01-11 16:57:54.140 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-01-11 16:57:54.172 logback [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-01-11 16:57:54.254 logback [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-01-11 16:57:54.599 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-01-11 16:57:54.615 logback [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-11 16:57:54.641 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-11 16:57:54.646 logback [restartedMain] INFO  c.e.f.FlowableactivityApplication - Started FlowableactivityApplication in 12.291 seconds (JVM running for 16.021)
+2019-01-11 16:57:55.028 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-11 16:57:55.029 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-11 16:57:55.046 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-01-11 16:57:55.059 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+2019-01-11 16:57:55.059 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'Flowable BPMN Rest API'
+2019-01-11 16:57:56.478 logback [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1419 ms
+2019-01-11 18:06:03.148 logback [Thread-38] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-11 18:06:03.153 logback [Thread-38] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-11 18:06:03.164 logback [Thread-38] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,21 @@
+server:
+  port: 8081
+spring:
+  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/zbd05?characterEncoding=UTF-8
+    url: jdbc:mysql://127.0.0.1:3306/zbd05?useSSL=false&serverTimezone=GMT&characterEncoding=utf8
+    username: root
+    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+#    driverClassName: com.mysql.jdbc.Driver
+#    type: com.zaxxer.hikari.HikariDataSource
+#    hikari:
+#      maxLifetime: 1765000
+#      maximumPoolSize: 15
+flowable:
+  async-executor-activate: false
+#logging:
+#  level:
+#    org.flowable: debug
+mybatis:
+  mapperLocations: classpath*:mapper/*.xml
